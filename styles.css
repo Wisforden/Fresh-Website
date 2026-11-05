@@ -88,9 +88,25 @@ footer a {
 
 .where_to_find {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding-top: 25px;
+  margin-top: 2rem;
+  border-left: double 6px #b850a2;
+  border-right: double 6px #b850a2;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.where_to_find h3 {
+  text-decoration: underline 2px;
+}
+
+#past_shows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .buyTicket {
@@ -99,6 +115,10 @@ footer a {
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-top: double 6px #b850a2;
+  border-bottom: double 6px #b850a2;
+  border-radius: 25px;
+  margin-top: 2rem;
 }
 
 .ticketBtn {
@@ -114,6 +134,7 @@ footer a {
   border: none;
   cursor: cell;
   border-radius: 20px;
+  margin-bottom: 1rem;
 }
 
 .ticketBtn:hover {
@@ -338,18 +359,8 @@ footer a {
 }
 
 .sponsorship_why {
-  border: solid 3px #b850a2;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2px;
-  margin: 1rem;
-}
-.sponsorship {
-  border: solid 3px #b850a2;
+  border-right: solid 3px #b850a2;
+  border-left: solid 3px #b850a2;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -360,11 +371,45 @@ footer a {
   margin: 1rem;
 }
 
+.sponsorship {
+  border: solid 3px #b850a2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+  margin: 1rem;
+}
+
+.sponsorship_pls {
+  border-left: solid 3px #b850a2;
+  border-right: solid 3px #b850a2;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  margin: 1rem;
+}
+
+.me_pls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
 #sponsor_table {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: solid 2px #7f3870;
 }
 
 .tiers {
@@ -382,11 +427,6 @@ footer a {
   display: flex;
   flex-direction: column;
   line-height: 2;
-}
-
-#sponsor_table {
-  border: solid 2px #7f3870;
-  border-radius: 10px;
 }
 
 .donate {
