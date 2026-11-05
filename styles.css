@@ -349,6 +349,13 @@ footer a {
   margin: 1rem;
 }
 
+#sponsor_table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .tiers {
   display: flex;
   flex-direction: column;
